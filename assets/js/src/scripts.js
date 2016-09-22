@@ -13,4 +13,14 @@ $(document).ready(function () {
         prevButton: '.prev-slide'
     });
 
+    //heaeder fixed
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 10) {
+            $("header").addClass("fixed");
+        } else {
+            $("header").removeClass("fixed");
+        }
+    });
+
+
 });

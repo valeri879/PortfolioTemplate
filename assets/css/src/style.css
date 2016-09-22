@@ -2764,14 +2764,31 @@ header {
   height: 70px;
   left: 0;
   top: 0;
-  z-index: 2; }
+  z-index: 2;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+header.fixed {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: fixed;
+  background: #444444; }
+  header.fixed a {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
+  header.fixed a:hover {
+    background: #46ffca;
+    color: #000000; }
 
 .desktop-nav {
   text-align: center; }
   .desktop-nav li {
     display: inline-block; }
   .desktop-nav a {
-    padding: 25px 10px;
+    padding: 25px 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -2780,7 +2797,7 @@ header {
     text-transform: uppercase;
     color: #ccc;
     font-size: 16px;
-    margin: 0 20px; }
+    margin: 0; }
 
 section {
   float: left;
@@ -2839,8 +2856,9 @@ section {
   .slider-container .arrows {
     position: absolute;
     top: 270px;
-    z-index: 11;
-    font-size: 64px; }
+    z-index: 1;
+    font-size: 64px;
+    cursor: pointer; }
   .slider-container .next-slide {
     right: 30px; }
   .slider-container .prev-slide {
