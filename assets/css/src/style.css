@@ -2753,7 +2753,7 @@ button.swiper-pagination-bullet {
     content: "";
     display: table; }
 
-#section-1 {
+#section-1, #section-2 {
   padding: 100px 0 0 0;
   color: #cccccc;
   background: url(../../img/pattern.png) repeat rgba(0, 0, 0, 0.65); }
@@ -2803,6 +2803,25 @@ section {
   float: left;
   width: 100%;
   height: 100%; }
+
+.about {
+  padding: 50px 70px 45px;
+  border: 1px solid #ccc;
+  margin: 60px auto 0;
+  width: 1200px;
+  text-align: center; }
+  .about .title {
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 0 16px 0; }
+  .about .about-text {
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px; }
 
 .slider {
   position: relative;
