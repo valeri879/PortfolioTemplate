@@ -1,5 +1,17 @@
+@import '../vendors/variables';
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: $ButtonHover; /* WebKit/Blink Browsers */
+  color: #000000;
+}
+
+::-moz-selection {
+  background: $ButtonHover; /* Gecko Browsers */
+  color: #000000;
 }
 
 body, ul, html {
