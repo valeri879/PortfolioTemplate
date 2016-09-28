@@ -1,4 +1,4 @@
-<section id="section-2" class="parallax-window" data-parallax="scroll" data-image-src="assets/img/4.jpg">
+<section id="about" class="parallax-window section-2" data-parallax="scroll" data-image-src="assets/img/4.jpg">
     <div class="container">
         <div class="about">
             <div class="title"><b>about</b> us</div>
