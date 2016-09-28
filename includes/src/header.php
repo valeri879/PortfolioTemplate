@@ -3,7 +3,8 @@
         <div class="container">
             <ul>
                 <li><a href="#main">Main</a></li>
-                <li><a href="#">service</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#membership">our membership</a></li>
                 <li><a href="#">gallery</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#">contact</a></li>

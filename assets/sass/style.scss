@@ -10,10 +10,14 @@
   margin: auto;
 }
 
-.section-1, .section-2 {
+.section-1, .section-2, .section-3, .section-4 {
   padding: 100px 0 0 0;
   color: #cccccc;
   background: url(../../img/pattern.png) repeat rgba(0, 0, 0, 0.65);
+}
+
+.section-3 {
+  background: #e8e8e8;
 }
 
 header {
@@ -50,6 +54,7 @@ header.fixed {
 
   a {
     padding: 25px 30px;
+    letter-spacing: 2px;
     font-family: $Montserrat;
     font-weight: bold;
     text-decoration: none;
@@ -68,7 +73,8 @@ section {
   height: 100%;
 }
 
-.about {
+.text-container {
+  @include clearfix;
   padding: 50px 70px 45px;
   border: 1px solid #ccc;
   margin: 60px auto 0;
@@ -89,6 +95,154 @@ section {
     font-family: $OpenSans;
     font-size: 18px;
     letter-spacing: 1px;
+  }
+}
+
+.service {
+  color: #444444;
+  border: none;
+
+  .title {
+    margin: 0 0 100px;
+  }
+
+  .col-3 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+  }
+
+  .service-icon {
+    font-size: 38px;
+
+    h4 {
+      text-transform: uppercase;
+      font-family: $Montserrat;
+      font-size: 18px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    font-family: $OpenSans;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+}
+
+.membership {
+  position: relative;
+  color: #cccccc;
+
+  .col-2 {
+    width: 50%;
+    float: left;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .price-list-info {
+    @include transition(all 0.3s);
+    position: relative;
+    @include clearfix;
+    background: #444444;
+    float: right;
+    width: 650px;
+    height: 180px;
+    margin: 45px 0;
+  }
+
+  .membership-icons-container {
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 690px;
+    padding: 50px;
+  }
+
+  .icon-wrapper {
+    font-size: 44px;
+    padding: 47px 0;
+
+    span {
+      display: block;
+      font-size: 16px;
+      font-family: $OpenSans;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+
+  .icon-wrapper.inactive {
+    color: #6d6d6d;
+  }
+
+  .icon-area {
+    @include transition(all 0.3s);
+    padding: 80px 0 0 0;
+    float: left;
+    width: 70px;
+    height: 100%;
+    background: #323232;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .membership-title {
+    font-size: 42px;
+    font-family: $Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 5px solid #cccccc;
+    padding: 10px 20px;
+    font-weight: normal;
+  }
+
+  .text-area {
+    float: left;
+    width: 510px;
+    padding: 10px 40px;
+
+    h4 {
+      font-family: $Montserrat;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 18px;
+      margin: 18px 0 16px 0;
+    }
+
+    p {
+      font-family: $OpenSans;
+      font-size: 16px;
+      margin: 0;
+      height: 88px;
+      overflow: hidden;
+    }
+  }
+
+  .price-label {
+    position: absolute;
+    @include transition(all 0.3s);
+    background: #323232;
+    right: 0;
+    top: 17px;
+    padding: 12px 25px;
+    height: 40px;
+    font-family: $Montserrat;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .price-list-info.active {
+
+    .icon-area, .price-label {
+      @include transition(all 0.3s);
+      background: #46ffca;
+      color: #000000;
+    }
   }
 }
 
