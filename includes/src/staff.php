@@ -47,15 +47,32 @@
         </div>
 
 
-        <h3 class="title">emma</h3>
 
         <div class="staff-quotes-slider">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-                        aspernatur blanditiis commodi, consequatur dolorum, ea ex modi nobis optio repellat repellendus
-                        totam voluptates. Commodi consectetur culpa, reprehenderit ullam voluptatem voluptatum!
+                        <h3 class="title">emma</h3>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                            aspernatur blanditiis commodi, consequatur dolorum, ea ex modi nobis optio repellat repellendus
+                            totam voluptates. Commodi consectetur culpa, reprehenderit ullam voluptatem voluptatum!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                            aspernatur blanditiis commodi, consequatur dolorum, ea ex modi nobis optio repellat repellendus
+                            totam voluptates. Commodi consectetur culpa, reprehenderit ullam voluptatem voluptatum!
+                        </p>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="swiper-slide">
+                        <h3 class="title">emma</h3>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                            aspernatur blanditiis commodi, consequatur dolorum, ea ex modi nobis optio repellat repellendus
+                            totam voluptates. Commodi consectetur culpa, reprehenderit ullam voluptatem voluptatum!
+                        </p>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                 </div>
                 <!-- Add Pagination -->

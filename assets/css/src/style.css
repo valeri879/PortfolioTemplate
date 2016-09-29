@@ -2906,6 +2906,21 @@ section {
   .staff .title-description {
     margin: 20px 0 50px; }
 
+.staff-quotes-slider {
+  font-family: "Open Sans", sans-serif; }
+  .staff-quotes-slider p {
+    margin: 5px 0; }
+  .staff-quotes-slider .title {
+    margin: 38px 0 30px;
+    font-size: 24px; }
+  .staff-quotes-slider .fa {
+    display: block;
+    font-size: 9px; }
+  .staff-quotes-slider .swiper-pagination-bullet-active {
+    background: #444444; }
+  .staff-quotes-slider .swiper-container {
+    height: 260px; }
+
 .title-description {
   font-family: "Open Sans", sans-serif;
   font-size: 18px; }

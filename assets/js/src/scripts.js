@@ -28,6 +28,8 @@ $(document).ready(function () {
     ///////////////////////////////////////////////
     var swiper = new Swiper('.staff-quotes-slider .swiper-container', {
         slidesPerView: 1,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
         spaceBetween: 0
     });
 

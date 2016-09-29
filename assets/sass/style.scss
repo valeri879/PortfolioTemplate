@@ -185,7 +185,29 @@ section {
 }
 
 .staff-quotes-slider {
+  font-family: $OpenSans;
 
+  p {
+    margin: 5px 0;
+  }
+
+  .title {
+    margin: 38px 0 30px;
+    font-size: 24px;
+  }
+
+  .fa {
+    display: block;
+    font-size: 9px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #444444;
+  }
+
+  .swiper-container {
+    height: 260px;
+  }
 }
 
 .title-description {
