@@ -10,9 +10,25 @@ $(document).ready(function () {
     ///////////////////////////////////////////////
     //initialize main slider
     ///////////////////////////////////////////////
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.slider-container .swiper-container', {
         nextButton: '.next-slide',
         prevButton: '.prev-slide'
+    });
+
+    ///////////////////////////////////////////////
+    //initialize staff slider
+    ///////////////////////////////////////////////
+    var swiper = new Swiper('.staff-slider .swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 0
+    });
+
+    ///////////////////////////////////////////////
+    //initialize staff quotes slider
+    ///////////////////////////////////////////////
+    var swiper = new Swiper('.staff-quotes-slider .swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 0
     });
 
 

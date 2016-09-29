@@ -2772,7 +2772,7 @@ button.swiper-pagination-bullet {
   color: #cccccc;
   background: url(../../img/pattern.png) repeat rgba(0, 0, 0, 0.65); }
 
-.section-3 {
+.section-3, .section-5 {
   background: #e8e8e8; }
 
 header {
@@ -2816,6 +2816,38 @@ header.fixed {
     color: #ccc;
     font-size: 16px;
     margin: 0; }
+
+.staff-slider .swiper-slide {
+  position: relative; }
+
+.staff-slider img {
+  width: 100%; }
+
+.staff-slider .staff-info {
+  opacity: 0;
+  top: 8px;
+  left: 8px;
+  color: #cccccc;
+  position: absolute;
+  width: calc(100% - 16px);
+  height: calc(100% - 18px);
+  background: rgba(0, 0, 0, 0.5);
+  border: 8px solid #46ffca;
+  z-index: 10;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  .staff-slider .staff-info h6 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 155px 0 11px; }
+  .staff-slider .staff-info span {
+    font-family: "Open Sans", sans-serif; }
+
+.staff-slider .staff-info:hover {
+  opacity: 1; }
 
 section {
   float: left;
@@ -2865,6 +2897,18 @@ section {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1px;
     text-align: center; }
+
+.staff {
+  border: none;
+  color: #444444; }
+  .staff .title {
+    margin: 40px 0 0; }
+  .staff .title-description {
+    margin: 20px 0 50px; }
+
+.title-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px; }
 
 .membership {
   position: relative;
