@@ -35,15 +35,15 @@
                 <div class="col-3 footer-info contact-col">
                     <h4>LET'S SOCIALIZE</h4>
                     <p>
-                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
                     </p>
                     <p>
-                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
                     </p>
                 </div>
                 <div class="col-3 footer-info contact-col">
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="copyright">
-                &copy; all right reserved | created by <a href="https://github.com/valeri879">val</a>
+                &copy; all right reserved | created by <a target="_blank" href="https://github.com/valeri879">val</a>
             </div>
 
 
