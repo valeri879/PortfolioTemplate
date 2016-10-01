@@ -142,11 +142,11 @@ section {
   height: 100%;
   overflow: hidden;
 
-  .swiper-container{
+  .swiper-container {
     height: 100%;
   }
 
-  .swiper-pagination-bullet-active{
+  .swiper-pagination-bullet-active {
     background: #46ffca;
   }
 
@@ -198,6 +198,18 @@ section {
 
   .title-description {
     margin: 20px 0 50px;
+  }
+}
+
+.contact {
+  .title {
+    color: #444444;
+  }
+
+  #map {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
   }
 }
 

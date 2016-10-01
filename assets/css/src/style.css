@@ -2916,6 +2916,14 @@ section {
   .staff .title-description {
     margin: 20px 0 50px; }
 
+.contact .title {
+  color: #444444; }
+
+.contact #map {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red; }
+
 .staff-quotes-slider {
   font-family: "Open Sans", sans-serif; }
   .staff-quotes-slider p {

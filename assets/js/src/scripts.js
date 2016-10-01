@@ -70,17 +70,33 @@ $(document).ready(function () {
     //anchor navigate
     ///////////////////////////////////////////////
     var $root = $('html, body');
-    $('a').on('click', function(event){
+    $('a').on('click', function (event) {
         var hash = this.hash;
         // Is the anchor on the same page?
-        if (hash && this.href.slice(0, -hash.length-1) == location.href.slice(0, -location.hash.length-1)) {
+        if (hash && this.href.slice(0, -hash.length - 1) == location.href.slice(0, -location.hash.length - 1)) {
             $root.animate({
                 scrollTop: $(hash).offset().top
-            }, 'normal', function() {
+            }, 'normal', function () {
                 location.hash = hash;
             });
             return false;
         }
     });
+
+
+    ///////////////////////////////////////////////
+    //google maps
+    ///////////////////////////////////////////////
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
 
 });
