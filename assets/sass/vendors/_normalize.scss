@@ -1,4 +1,5 @@
 @import '../vendors/variables';
+@import "../../../bower_components/bourbon/app/assets/stylesheets/_bourbon";
 
 * {
   box-sizing: border-box;
@@ -22,4 +23,8 @@ body, ul, html {
 .col-3 {
   width: 33.33%;
   float: left;
+}
+
+.clearfix{
+  @include clearfix;
 }

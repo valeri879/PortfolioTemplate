@@ -1,4 +1,4 @@
-<section id="staff" class="section-5">
+<section id="staff" class="section-5 section">
 
     <div class="text-container staff">
         <h3 class="title">staff</h3>

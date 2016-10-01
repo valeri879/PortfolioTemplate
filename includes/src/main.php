@@ -1,4 +1,4 @@
-<section id="main" class="parallax-window section-1" data-parallax="scroll" data-image-src="assets/img/1.jpg">
+<section id="main" class="parallax-window section section-1" data-parallax="scroll" data-image-src="assets/img/1.jpg">
     <div class="container">
         <div class="slider">
             <div class="border border-top-right"></div>

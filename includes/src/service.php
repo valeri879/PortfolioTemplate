@@ -1,4 +1,4 @@
-<section id="service" class="section-3">
+<section id="service" class="section-3 section">
 
     <div class="text-container service">
         <h1 class="title">service</h1>

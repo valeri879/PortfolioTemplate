@@ -1,10 +1,10 @@
 $(document).ready(function () {
     var height = $(window).height();
-    $('section').css({'height': height});
+    $('.section').css({'height': height});
 
     $(window).resize(function () {
         var height = $(window).height();
-        $('section').css({'height': height});
+        $('.section').css({'height': height});
     });
 
     ///////////////////////////////////////////////

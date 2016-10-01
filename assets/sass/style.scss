@@ -10,7 +10,7 @@
   margin: auto;
 }
 
-.section-1, .section-2, .section-3, .section-4, section-7 {
+.section-1, .section-2, .section-3, .section-4 {
   padding: 100px 0 0 0;
   color: #fff;
   background: url(../../img/pattern.png) repeat rgba(0, 0, 0, 0.65);
@@ -108,6 +108,7 @@ header.fixed {
 }
 
 section {
+  @include clearfix;
   float: left;
   width: 100%;
   height: 100%;
@@ -207,7 +208,7 @@ section {
   }
 
   #map {
-    width: 500px;
+    width: 100%;
     height: 500px;
     border: 1px solid red;
   }
@@ -500,6 +501,8 @@ section {
   font-family: $Montserrat;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
   padding: 10px 15px;
   display: inline-block;
   background: #444444;
@@ -508,7 +511,209 @@ section {
   @include transition(all 0.2s);
 }
 
+.button.active {
+  background: $ButtonHover;
+  color: #000;
+}
+
 .button:hover {
   background: $ButtonHover;
   color: #000;
 }
+
+footer {
+  background: #444444;
+  padding: 100px 0 0 0;
+  text-align: center;
+  color: #ffffff;
+
+  h4 {
+    font-family: $Montserrat;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px;
+  }
+
+  p {
+    font-family: $OpenSans;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 3px 0;
+  }
+
+  .line {
+    width: 100%;
+    background: #cccccc;
+    height: 1px;
+    margin: 100px 0;
+  }
+
+  .scroll-top {
+    position: relative;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    color: #cccccc;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    background: #444444;
+    @include transform(rotate(45deg));
+    @include transition(all 0.3s);
+    cursor: pointer;
+
+    i {
+      font-size: 18px;
+      @include transform(rotate(-45deg));
+      padding: 14px 0;
+    }
+  }
+
+  .scroll-top:hover {
+    background: $ButtonHover;
+    color: #444444;
+    border-color: $ButtonHover;
+  }
+
+  .thumbs {
+    img {
+      width: 80px;
+    }
+
+    a {
+      margin: 0 3px;
+
+    }
+  }
+
+  .copyright {
+    font-family: $Montserrat;
+    text-transform: uppercase;
+    background: #323232;
+    padding: 15px 0;
+    margin: 15px 0 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    a {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+
+}
+
+.input-container {
+  width: 700px;
+
+  .input-text {
+    width: 100%;
+    margin: 15px 0;
+    height: 35px;
+    border: none;
+    background: #444444;
+    border-bottom: 3px solid #ccc;
+    color: #cccccc;
+    font-size: 18px;
+    text-align: center;
+    font-family: $OpenSans;
+    outline: none;
+    @include transition(all 0.3s);
+  }
+
+  .input-text:focus {
+    border-color: #46ffca;
+  }
+
+  label {
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: $Montserrat;
+    letter-spacing: 0.5px;
+    padding: 0;
+    display: inline-block;
+    margin: 9px 0 0;
+  }
+
+  .input-text::-webkit-input-placeholder {
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: $Montserrat;
+    letter-spacing: 0.5px;
+    padding: 0;
+  }
+  .input-text::-moz-placeholder {
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: $Montserrat;
+    letter-spacing: 0.5px;
+    padding: 0;
+  }
+
+  .input-textarea {
+    border: 3px solid #cccccc;
+    height: 150px;
+    padding: 15px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
