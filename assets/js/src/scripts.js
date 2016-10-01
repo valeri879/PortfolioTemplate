@@ -33,6 +33,16 @@ $(document).ready(function () {
         spaceBetween: 0
     });
 
+    ///////////////////////////////////////////////
+    //initialize staff quotes slider
+    ///////////////////////////////////////////////
+    var swiper = new Swiper('.gallery-slider .swiper-container', {
+        slidesPerView: 1,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 0
+    });
+
 
     ///////////////////////////////////////////////
     //heaeder fixed

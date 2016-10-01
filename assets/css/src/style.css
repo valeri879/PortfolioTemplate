@@ -2767,9 +2767,9 @@ button.swiper-pagination-bullet {
     content: "";
     display: table; }
 
-.section-1, .section-2, .section-3, .section-4 {
+.section-1, .section-2, .section-3, .section-4, section-7 {
   padding: 100px 0 0 0;
-  color: #cccccc;
+  color: #fff;
   background: url(../../img/pattern.png) repeat rgba(0, 0, 0, 0.65); }
 
 .section-3, .section-5 {
@@ -2813,7 +2813,7 @@ header.fixed {
     display: block;
     height: 70px;
     text-transform: uppercase;
-    color: #ccc;
+    color: #fff;
     font-size: 16px;
     margin: 0; }
 
@@ -2827,7 +2827,7 @@ header.fixed {
   opacity: 0;
   top: 8px;
   left: 8px;
-  color: #cccccc;
+  color: #ffffff;
   position: absolute;
   width: calc(100% - 16px);
   height: calc(100% - 18px);
@@ -2856,7 +2856,7 @@ section {
 
 .text-container {
   padding: 50px 70px 45px;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   margin: 60px auto 0;
   width: 1200px;
   text-align: center; }
@@ -2872,10 +2872,20 @@ section {
     text-transform: uppercase;
     margin: 0 0 16px 0; }
   .text-container .about-text {
-    text-align: justify;
+    text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    letter-spacing: 1px; }
+    letter-spacing: 0.5px; }
+
+.gallery-slider {
+  height: 100%;
+  overflow: hidden; }
+  .gallery-slider .swiper-container {
+    height: 100%; }
+  .gallery-slider .swiper-pagination-bullet-active {
+    background: #46ffca; }
+  .gallery-slider img {
+    width: 100%; }
 
 .service {
   color: #444444;
@@ -2909,7 +2919,9 @@ section {
 .staff-quotes-slider {
   font-family: "Open Sans", sans-serif; }
   .staff-quotes-slider p {
-    margin: 5px 0; }
+    margin: 5px 0;
+    font-size: 18px;
+    letter-spacing: 0.5px; }
   .staff-quotes-slider .title {
     margin: 38px 0 30px;
     font-size: 24px; }
@@ -2927,7 +2939,7 @@ section {
 
 .membership {
   position: relative;
-  color: #cccccc; }
+  color: #ffffff; }
   .membership .col-2 {
     width: 50%;
     float: left; }
@@ -2948,7 +2960,7 @@ section {
       content: "";
       display: table; }
   .membership .membership-icons-container {
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     display: inline-block;
     width: 690px;
     padding: 50px; }
@@ -2980,7 +2992,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
-    border: 5px solid #cccccc;
+    border: 5px solid #ffffff;
     padding: 10px 20px;
     font-weight: normal; }
   .membership .text-area {
@@ -3033,7 +3045,7 @@ section {
     left: -50px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ccc;
+    color: #fff;
     margin: 0 0 25px 0; }
     .slider .title h3 {
       font-size: 42px;
@@ -3121,7 +3133,7 @@ section {
   padding: 10px 15px;
   display: inline-block;
   background: #444444;
-  color: #cccccc;
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;

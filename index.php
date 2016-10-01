@@ -5,6 +5,8 @@
 <?php include 'includes/build/service.php'; ?>
 <?php include 'includes/build/membership.php'; ?>
 <?php include 'includes/build/staff.php'; ?>
+<?php include 'includes/build/gallery.php'; ?>
+<?php include 'includes/build/contact.php'; ?>
 
 
 <?php include 'includes/build/footer.php'; ?>
