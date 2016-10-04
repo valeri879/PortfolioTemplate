@@ -1,0 +1,133 @@
+@media only screen and (min-width: 240px) and (max-width: 1770px) {
+  .container {
+    width: 1500px;
+  }
+
+  .input-container {
+    width: 700px;
+  }
+
+  .paragraph-container {
+    height: 539px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 1500px) {
+  .container {
+    width: 1300px;
+  }
+
+  .input-container {
+    width: 700px;
+  }
+
+  .paragraph-container {
+    height: 449px;
+    overflow: hidden;
+  }
+
+  .text-container {
+    margin: 20px auto 0;
+  }
+
+  .membership .membership-icons-container {
+    width: 520px;
+    padding: 0;
+  }
+
+  .membership .price-list-info {
+    margin: 30px 0;
+    width: 580px;
+  }
+
+  .membership .text-area p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 1320px) {
+  .container {
+    width: 1000px;
+  }
+
+  .input-container {
+    width: 700px;
+  }
+
+  .desktop-nav a {
+    font-size: 16px;
+    padding: 25px 20px;
+  }
+
+  .main-text-container p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .paragraph-container {
+    height: 278px;
+  }
+
+  .text-container {
+    width: auto;
+
+    .about-text {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      letter-spacing: .5px;
+    }
+
+    .title {
+      font-size: 32px;
+    }
+  }
+
+  .membership .membership-icons-container {
+    width: 460px;
+  }
+
+  .membership .icon-wrapper {
+    font-size: 34px;
+    padding: 31px 0;
+  }
+
+  .membership .price-list-info {
+    margin: 10px 0;
+    width: 520px;
+    height: 160px;
+  }
+
+  .membership .text-area {
+    float: left;
+    width: calc(100% - 70px);
+  }
+
+  .membership .membership-title {
+    font-size: 32px;
+  }
+
+  .title-description {
+    font-size: 14px;
+  }
+
+  .staff-quotes-slider p {
+    font-size: 14px;
+  }
+
+  .main-text-container .title h3 {
+    font-size: 32px;
+  }
+
+  .slider .title h3 {
+    font-size: 32px;
+  }
+
+  .slider .title span {
+    font-size: 12px;
+  }
+
+  .slider{
+    padding: 25px 50px 30px;
+  }
+}

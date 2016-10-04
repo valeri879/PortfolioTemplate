@@ -30,49 +30,40 @@
                 <span>welcome to</span>
                 <h3>our company</h3>
             </div>
-            <p>
-                <b>Lorem </b>ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut dignissimos dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis veritatis? A consectetur
-                est ex laudantium libero, nesciunt.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
-                consectetur
-                est ex laudantium libero, nesciunt.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
-                consectetur
-                est ex laudantium libero, nesciunt.
-            </p>
-            <p>
-                <b>Lorem </b>ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut dignissimos dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis veritatis? A consectetur
-                est ex laudantium libero, nesciunt.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
-                consectetur
-                est ex laudantium libero, nesciunt.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
-                consectetur
-                est ex laudantium libero, nesciunt.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
-                doloremque
-                ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
-                consectetur
-                est ex laudantium libero, nesciunt.
-            </p>
+            <div class="paragraph-container">
+                <p>
+                    <b>Lorem </b>ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut dignissimos dolor,
+                    doloremque
+                    ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis veritatis? A consectetur
+                    est ex laudantium libero, nesciunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
+                    doloremque
+                    ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
+                    consectetur
+                    est ex laudantium libero, nesciunt.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
+                    doloremque
+                    ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
+                    consectetur
+                    est ex laudantium libero, nesciunt.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
+                    doloremque
+                    ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
+                    consectetur
+                    est ex laudantium libero, nesciunt.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
+                    doloremque
+                    ducimus impedit incidunt inventore, iure laudantium natus possimus reiciendis <b>veritatis?</b> A
+                    consectetur
+                    est ex laudantium libero, nesciunt.
+                </p>
+            </div>
+
 
             <a href="#about" class="button">about us</a>
         </div>

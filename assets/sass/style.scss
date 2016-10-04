@@ -13,7 +13,7 @@
 .section-1, .section-2, .section-3, .section-4 {
   padding: 100px 0 0 0;
   color: #fff;
-  background: url(../../img/pattern.png) repeat rgba(0, 0, 0, 0.65);
+  background: url(../../img/pattern.png) repeat;
 }
 
 .section-3, .section-5 {
@@ -469,7 +469,7 @@ section {
 
   p {
     font-family: $OpenSans;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 1px;
 
     b {
@@ -597,7 +597,7 @@ footer {
     text-transform: uppercase;
     background: #323232;
     padding: 15px 0;
-    margin: 15px 0 0;
+    margin: 55px 0 0;
     font-size: 14px;
     letter-spacing: 1px;
 
@@ -667,7 +667,7 @@ footer {
 
 }
 
-
+@import "responsive/media-queries";
 
 
 

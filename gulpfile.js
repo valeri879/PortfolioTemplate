@@ -61,7 +61,7 @@ gulp.task('compress-js', function () {
 // watcher
 //////////////////////////////////////////////////////////////
 gulp.task('watcher', function () {
-    gulp.watch('assets/sass/*.scss',        ['sass']);
+    gulp.watch('assets/sass/**/*.scss',        ['sass']);
     gulp.watch('includes/src/**/*.php',     ['minify-html']);
     gulp.watch('assets/css/src/*.css',      ['minify-css']);
     gulp.watch('assets/js/src/**/*.js',     ['compress-js']);
