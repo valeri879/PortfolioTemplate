@@ -3146,9 +3146,10 @@ section {
       font-size: 14px; }
 
 .desktop-nav {
-  display: none; }
+  display: block; }
 
 .mobile-menu-button {
+  display: none;
   width: 100%;
   height: 100%;
   border: none;
@@ -3424,7 +3425,9 @@ footer {
 
 @media only screen and (min-width: 240px) and (max-width: 768px) {
   .input-container {
-    width: 100%; } }
+    width: 100%; }
+  .mobile-menu-button {
+    display: block; } }
 
 @media only screen and (min-width: 240px) and (max-width: 485px) {
   .container {
