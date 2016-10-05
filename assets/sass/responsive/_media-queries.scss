@@ -127,7 +127,107 @@
     font-size: 12px;
   }
 
-  .slider{
+  .slider {
     padding: 25px 50px 30px;
   }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 1025px) {
+  .container {
+    width: 100%;
+    padding: 0 100px;
+  }
+
+  .input-container {
+    width: 700px;
+  }
+
+  .slider, .main-text-container {
+    width: 100%;
+  }
+
+  section, .paragraph-container {
+    height: auto !important;
+  }
+
+  .section-2, .section-3, .section-4 {
+    padding: 50px 0;
+  }
+
+  .section-4 {
+
+    .col-2 {
+      width: 100%;
+    }
+
+  }
+
+  .membership .price-list-info {
+    margin: 20px auto;
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+  .input-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 485px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .membership .price-list-info, .membership .membership-icons-container {
+    width: 100%;
+  }
+
+  .slider {
+    padding: 20px;
+
+    .title {
+      left: -20px;
+    }
+  }
+
+  .membership .price-list-info {
+    height: 200px;
+  }
+
+  .membership .price-label {
+    font-size: 13px;
+    padding: 10px;
+    height: auto;
+    top: 151px;
+  }
+
+  .text-container {
+    padding: 20px;
+
+    .title {
+      margin: 0;
+    }
+  }
+
+  .service {
+    .col-3 {
+      width: 100%;
+    }
+  }
+
+  .membership .icon-wrapper {
+    font-size: 24px;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .membership .text-area p {
+    height: 80px;
+  }
+
 }

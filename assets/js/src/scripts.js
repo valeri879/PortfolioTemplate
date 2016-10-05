@@ -99,4 +99,12 @@ $(document).ready(function () {
         });
     }
 
+    ///////////////////////////////////////////////
+    //mobile navigation menu
+    ///////////////////////////////////////////////
+    $(".mobile-menu-button").on("click", function () {
+        $(this).toggleClass("active");
+        $(".mobile-nav").toggleClass("active");
+    });
+
 });
