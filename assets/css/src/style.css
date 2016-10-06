@@ -3360,6 +3360,10 @@ footer {
 @media only screen and (min-width: 240px) and (max-width: 1320px) {
   .container {
     width: 1000px; }
+  .desktop-nav {
+    display: none; }
+  .mobile-menu-button {
+    display: block; }
   .input-container {
     width: 700px; }
   .desktop-nav a {
@@ -3427,7 +3431,13 @@ footer {
   .input-container {
     width: 100%; }
   .mobile-menu-button {
-    display: block; } }
+    display: block; }
+  .staff-slider .swiper-container {
+    overflow: auto; }
+  .staff-slider .swiper-wrapper {
+    display: block; }
+  .staff-slider .swiper-slide {
+    width: 100% !important; } }
 
 @media only screen and (min-width: 240px) and (max-width: 485px) {
   .container {

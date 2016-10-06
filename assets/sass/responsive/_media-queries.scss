@@ -51,6 +51,14 @@
     width: 1000px;
   }
 
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
   .input-container {
     width: 700px;
   }
@@ -176,6 +184,20 @@
 
   .mobile-menu-button {
     display: block;
+  }
+
+  .staff-slider {
+    .swiper-container {
+      overflow: auto;
+    }
+
+    .swiper-wrapper {
+      display: block;
+    }
+
+    .swiper-slide {
+      width: 100% !important;
+    }
   }
 }
 
