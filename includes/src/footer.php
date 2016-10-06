@@ -64,24 +64,27 @@
                 &copy; all right reserved | created by <a target="_blank" href="https://github.com/valeri879">val</a>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-            <script type="text/javascript"
-                    src="https://maps.googleapis.com/maps/api/js?sensor=false">
+            <script>
+                function initMap() {
+                    var uluru = {lat: -25.363, lng: 131.044};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 4,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
             </script>
             <script src="assets/js/build/libs/jquery.min.js"></script>
             <script src="assets/js/build/plugins/parallax.min.js"></script>
             <script src="assets/js/build/plugins/swiper.min.js"></script>
             <script src="assets/js/build/scripts.min.js"></script>
+
 
         </footer>
     </body>

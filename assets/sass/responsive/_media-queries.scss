@@ -199,6 +199,10 @@
       width: 100% !important;
     }
   }
+
+  .main-text-container{
+    padding: 25px 20px;
+  }
 }
 
 @media only screen and (min-width: 240px) and (max-width: 485px) {
@@ -234,7 +238,7 @@
     padding: 20px;
 
     .title {
-      margin: 0;
+      margin: 40px 0 0 0;
     }
   }
 

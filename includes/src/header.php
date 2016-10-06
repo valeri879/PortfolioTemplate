@@ -9,7 +9,6 @@
                 <li><a href="#staff">staff</a></li>
                 <li><a href="#gallery">gallery</a></li>
                 <li><a href="#contact">contact</a></li>
-                <li><a href="#">en</a></li>
             </ul>
         </div>
     </nav>
@@ -25,7 +24,6 @@
             <li><a href="#staff">staff</a></li>
             <li><a href="#gallery">gallery</a></li>
             <li><a href="#contact">contact</a></li>
-            <li><a href="#">en</a></li>
         </ul>
     </div>
 </nav>
