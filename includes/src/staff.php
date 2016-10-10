@@ -58,9 +58,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
                             aspernatur blanditiis commodi, consequatur dolorum, ea ex modi nobis optio repellat repellendus
                             totam voluptates. Commodi consectetur culpa, reprehenderit ullam voluptatem voluptatum!
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-                            aspernatur blanditiis commodi, consequatur dolorum, ea ex modi nobis optio repellat repellendus
-                            totam voluptates. Commodi consectetur culpa, reprehenderit ullam voluptatem voluptatum!
+                            Lorem ipsum dolor sit amet, consectetur
                         </p>
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>

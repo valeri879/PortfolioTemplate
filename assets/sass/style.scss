@@ -148,6 +148,10 @@ section {
     font-size: 18px;
     letter-spacing: 0.5px;
   }
+
+  &.service {
+    margin: 50px auto;
+  }
 }
 
 .gallery-slider {
@@ -165,6 +169,10 @@ section {
   img {
     width: 100%;
   }
+}
+
+.service-row {
+  margin: 0 0 70px;
 }
 
 .service {

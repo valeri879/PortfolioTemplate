@@ -28,3 +28,7 @@ body, ul, html {
 .clearfix{
   @include clearfix;
 }
+
+.row{
+  @include clearfix;
+}

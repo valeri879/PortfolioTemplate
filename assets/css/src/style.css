@@ -24,6 +24,11 @@ body, ul, html {
   content: "";
   display: table; }
 
+.row::after {
+  clear: both;
+  content: "";
+  display: table; }
+
 /**
  * Swiper 3.3.1
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -2893,6 +2898,8 @@ section {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     letter-spacing: 0.5px; }
+  .text-container.service {
+    margin: 50px auto; }
 
 .gallery-slider {
   height: 100%;
@@ -2903,6 +2910,9 @@ section {
     background: #46ffca; }
   .gallery-slider img {
     width: 100%; }
+
+.service-row {
+  margin: 0 0 70px; }
 
 .service {
   color: #444444;
