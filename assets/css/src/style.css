@@ -2985,6 +2985,7 @@ section {
     transition: all 0.3s;
     position: relative;
     background: #444444;
+    cursor: pointer;
     float: right;
     width: 650px;
     height: 180px;
@@ -2993,6 +2994,12 @@ section {
       clear: both;
       content: "";
       display: table; }
+    .membership .price-list-info.active .icon-area, .membership .price-list-info.active .price-label {
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      background: #46ffca;
+      color: #000000; }
   .membership .membership-icons-container {
     border: 1px solid #fff;
     display: inline-block;
@@ -3058,12 +3065,6 @@ section {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     text-transform: uppercase; }
-  .membership .price-list-info.active .icon-area, .membership .price-list-info.active .price-label {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    background: #46ffca;
-    color: #000000; }
 
 .slider {
   position: relative;
@@ -3124,11 +3125,11 @@ section {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-  .slider-container .arrows.active {
-    opacity: 1;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    .slider-container .arrows.active {
+      opacity: 1;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
   .slider-container .arrows.swiper-button-disabled {
     color: rgba(204, 204, 204, 0.5); }
   .slider-container .next-slide {
@@ -3171,10 +3172,9 @@ section {
   font-size: 32px;
   background: #444444;
   outline: none; }
-
-.mobile-menu-button.active {
-  background: #46ffca;
-  color: #444444; }
+  .mobile-menu-button.active {
+    background: #46ffca;
+    color: #444444; }
 
 .mobile-nav {
   position: fixed;
@@ -3197,9 +3197,8 @@ section {
     display: block;
     font-size: 18px;
     padding: 15px 0; }
-
-.mobile-nav.active {
-  display: block; }
+  .mobile-nav.active {
+    display: block; }
 
 .button {
   font-size: 14px;
@@ -3219,10 +3218,9 @@ section {
   .button:hover {
     background: #46ffca;
     color: #000; }
-
-.button.active {
-  background: #46ffca;
-  color: #000; }
+  .button.active {
+    background: #46ffca;
+    color: #000; }
 
 footer {
   background: #444444;

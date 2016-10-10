@@ -101,4 +101,15 @@ $(document).ready(function () {
     $(".mobile-nav a").on("click", function () {
         $(".mobile-nav, .mobile-menu-button").removeClass("active");
     });
+
+    ///////////////////////////////////////////////
+    //membership changes
+    ///////////////////////////////////////////////
+    $(".price-list-info").on("click", function () {
+        $(".price-list-info").removeClass("active");
+        $(this).addClass("active");
+    });
+
+
+
 });

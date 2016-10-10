@@ -284,10 +284,19 @@ section {
     position: relative;
     @include clearfix;
     background: #444444;
+    cursor: pointer;
     float: right;
     width: 650px;
     height: 180px;
     margin: 45px 0;
+
+    &.active {
+      .icon-area, .price-label {
+        @include transition(all 0.3s);
+        background: #46ffca;
+        color: #000000;
+      }
+    }
   }
 
   .membership-icons-container {
@@ -370,15 +379,6 @@ section {
     font-size: 14px;
     text-transform: uppercase;
   }
-
-  .price-list-info.active {
-
-    .icon-area, .price-label {
-      @include transition(all 0.3s);
-      background: #46ffca;
-      color: #000000;
-    }
-  }
 }
 
 .slider {
@@ -460,11 +460,11 @@ section {
     opacity: 0;
     cursor: pointer;
     @include transition(all 0.5s ease);
-  }
 
-  .arrows.active {
-    opacity: 1;
-    @include transition(all 0.5s ease);
+    &.active {
+      opacity: 1;
+      @include transition(all 0.5s ease);
+    }
   }
 
   .arrows.swiper-button-disabled {
@@ -527,11 +527,11 @@ section {
   font-size: 32px;
   background: #444444;
   outline: none;
-}
 
-.mobile-menu-button.active {
-  background: $ButtonHover;
-  color: #444444;
+  &.active {
+    background: $ButtonHover;
+    color: #444444;
+  }
 }
 
 .mobile-nav {
@@ -560,10 +560,9 @@ section {
     padding: 15px 0;
   }
 
-}
-
-.mobile-nav.active {
-  display: block;
+  &.active {
+    display: block;
+  }
 }
 
 .button {
@@ -584,11 +583,11 @@ section {
     background: $ButtonHover;
     color: #000;
   }
-}
 
-.button.active {
-  background: $ButtonHover;
-  color: #000;
+  &.active {
+    background: $ButtonHover;
+    color: #000;
+  }
 }
 
 footer {
