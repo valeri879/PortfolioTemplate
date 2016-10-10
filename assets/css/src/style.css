@@ -2804,9 +2804,9 @@ header.fixed {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease; }
-  header.fixed a:hover {
-    background: #46ffca;
-    color: #000000; }
+    header.fixed a:hover {
+      background: #46ffca;
+      color: #000000; }
 
 .desktop-nav {
   text-align: center; }
@@ -2823,7 +2823,13 @@ header.fixed {
     text-transform: uppercase;
     color: #fff;
     font-size: 16px;
-    margin: 0; }
+    margin: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    .desktop-nav a:hover {
+      background: #46ffca;
+      color: #444444; }
 
 .staff-slider .swiper-slide {
   position: relative; }
@@ -2853,9 +2859,8 @@ header.fixed {
     margin: 155px 0 11px; }
   .staff-slider .staff-info span {
     font-family: "Open Sans", sans-serif; }
-
-.staff-slider .staff-info:hover {
-  opacity: 1; }
+  .staff-slider .staff-info:hover {
+    opacity: 1; }
 
 section {
   float: left;
@@ -3201,12 +3206,11 @@ section {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
+  .button:hover {
+    background: #46ffca;
+    color: #000; }
 
 .button.active {
-  background: #46ffca;
-  color: #000; }
-
-.button:hover {
   background: #46ffca;
   color: #000; }
 
@@ -3261,10 +3265,10 @@ footer {
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
       padding: 14px 0; }
-  footer .scroll-top:hover {
-    background: #46ffca;
-    color: #444444;
-    border-color: #46ffca; }
+    footer .scroll-top:hover {
+      background: #46ffca;
+      color: #444444;
+      border-color: #46ffca; }
   footer .thumbs img {
     width: 80px; }
   footer .thumbs a {

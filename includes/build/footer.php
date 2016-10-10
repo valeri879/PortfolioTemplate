@@ -8,4 +8,4 @@
                         position: uluru,
                         map: map
                     });
-                }</script><script async defer="defer" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script><script src="assets/js/build/libs/jquery.min.js"></script><script src="assets/js/build/plugins/parallax.min.js"></script><script src="assets/js/build/plugins/swiper.min.js"></script><script src="assets/js/build/scripts.min.js"></script></footer>
+                }</script><script async defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYrzbIh8By5wy11oVwDLsdBwpOU1qLaZU&callback=initMap"></script><script src="assets/js/build/libs/jquery.min.js"></script><script src="assets/js/build/plugins/parallax.min.js"></script><script src="assets/js/build/plugins/swiper.min.js"></script><script src="assets/js/build/scripts.min.js"></script></footer>

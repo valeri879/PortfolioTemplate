@@ -41,11 +41,11 @@ header.fixed {
 
   a {
     @include transition(all 0.2s ease);
-  }
 
-  a:hover {
-    background: #46ffca;
-    color: #000000;
+    &:hover {
+      background: #46ffca;
+      color: #000000;
+    }
   }
 }
 
@@ -68,6 +68,12 @@ header.fixed {
     color: #fff;
     font-size: 16px;
     margin: 0;
+    @include transition(all 0.3s);
+
+    &:hover {
+      background: $ButtonHover;
+      color: #444444;
+    }
   }
 }
 
@@ -105,9 +111,10 @@ header.fixed {
     span {
       font-family: $OpenSans;
     }
-  }
-  .staff-info:hover {
-    opacity: 1;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 }
 
@@ -564,14 +571,14 @@ section {
   color: #ffffff;
   text-decoration: none;
   @include transition(all 0.2s);
+
+  &:hover {
+    background: $ButtonHover;
+    color: #000;
+  }
 }
 
 .button.active {
-  background: $ButtonHover;
-  color: #000;
-}
-
-.button:hover {
   background: $ButtonHover;
   color: #000;
 }
@@ -628,12 +635,12 @@ footer {
       @include transform(rotate(-45deg));
       padding: 14px 0;
     }
-  }
 
-  .scroll-top:hover {
-    background: $ButtonHover;
-    color: #444444;
-    border-color: $ButtonHover;
+    &:hover {
+      background: $ButtonHover;
+      color: #444444;
+      border-color: $ButtonHover;
+    }
   }
 
   .thumbs {
