@@ -1,6 +1,6 @@
 <section id="staff" class="section-5 section">
 
-    <div class="text-container staff">
+    <div class="text-container staff" data-aos-duration="1500" data-aos="zoom-in-down">
         <h3 class="title">staff</h3>
         <p class="title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <div class="staff-slider">

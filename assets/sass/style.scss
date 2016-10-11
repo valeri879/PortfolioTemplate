@@ -3,7 +3,7 @@
 @import 'plugins/swiper';
 @import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon";
 @import "plugins/font-awesome";
-
+@import "plugins/aos";
 .container {
   @include clearfix;
   width: 1750px;

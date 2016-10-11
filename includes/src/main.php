@@ -1,6 +1,6 @@
 <section id="main" class="parallax-window section section-1" data-parallax="scroll" data-image-src="assets/img/1.jpg">
     <div class="container">
-        <div class="slider">
+        <div class="slider" data-aos-duration="1500" data-aos="fade-right">
             <div class="border border-top-right"></div>
             <div class="border border-right-top"></div>
             <div class="border border-bottom-left"></div>
@@ -25,9 +25,9 @@
             </div>
 
         </div>
-        <div class="main-text-container">
+        <div class="main-text-container" data-aos-duration="1500" data-aos="fade-left">
             <div class="title">
-                <span>welcome to</span>
+                <span class="glitched">welcome to</span>
                 <h3>our company</h3>
             </div>
             <div class="paragraph-container">

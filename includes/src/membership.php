@@ -1,6 +1,6 @@
 <section id="membership" class="section-4 section membership" data-parallax="scroll" data-image-src="assets/img/5.jpg">
     <div class="col-2 left">
-        <div class="price-list-info active">
+        <div class="price-list-info active" data-aos-duration="1500" data-aos="fade-right">
             <div class="icon-area">
                 <i class="fa fa-battery-empty"></i>
             </div>
@@ -16,7 +16,7 @@
                 from 300 $/month
             </div>
         </div>
-        <div class="price-list-info">
+        <div class="price-list-info" data-aos="fade-right">
             <div class="icon-area">
                 <i class="fa fa-battery-half"></i>
             </div>
@@ -32,7 +32,7 @@
                 from 500 $/month
             </div>
         </div>
-        <div class="price-list-info">
+        <div class="price-list-info" data-aos="fade-right">
             <div class="icon-area">
                 <i class="fa fa-battery-full"></i>
             </div>
@@ -51,11 +51,11 @@
 
     </div>
     <div class="col-2 right">
-        <h3 class="membership-title">
+        <h3 class="membership-title" data-aos-duration="1500" data-aos="zoom-in-down">
             our <b>membership</b>
         </h3>
         <div class="row">
-            <div class="membership-icons-container">
+            <div class="membership-icons-container" data-aos-duration="1500" data-aos="zoom-in">
                 <div class="col-3 icon-wrapper">
                     <i class="fa fa-gamepad"></i>
                     <span>game zone</span>
