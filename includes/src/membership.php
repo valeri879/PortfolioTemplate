@@ -1,4 +1,4 @@
-<section id="membership" class="section-4 section membership" data-parallax="scroll" data-image-src="assets/img/5.jpg">
+<div id="membership" class="section-4 section membership" data-parallax="scroll" data-image-src="assets/img/5.jpg">
     <div class="col-2 left">
         <div class="price-list-info active" data-aos-duration="1500" data-aos="fade-right">
             <div class="icon-area">
@@ -96,4 +96,4 @@
         </div>
 
     </div>
-</section>
+</div>

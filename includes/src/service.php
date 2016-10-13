@@ -1,4 +1,4 @@
-<section id="service" class="section-3 section">
+<div id="service" class="section-3 section">
 
     <div class="text-container service">
         <h1 class="title">service</h1>
@@ -62,4 +62,4 @@
         </div>
     </div>
 
-</section>
+</div>

@@ -1,4 +1,4 @@
-<section id="main" class="parallax-window section section-1" data-parallax="scroll" data-image-src="assets/img/1.jpg">
+<div id="main" class="parallax-window section section-1" data-parallax="scroll" data-image-src="assets/img/1.jpg">
     <div class="container">
         <div class="slider" data-aos-duration="1500" data-aos="fade-right">
             <div class="border border-top-right"></div>
@@ -17,13 +17,11 @@
                             <img src="assets/img/3.jpg" alt="your image descrition">
                         </div>
                     </div>
-
                 </div>
                 <!-- Add Arrows -->
                 <div class="arrows next-slide"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                 <div class="arrows prev-slide"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
             </div>
-
         </div>
         <div class="main-text-container" data-aos-duration="1500" data-aos="fade-left">
             <div class="title">
@@ -62,9 +60,7 @@
                     est ex laudantium libero, nesciunt.
                 </p>
             </div>
-
-
             <a href="#about" class="button">about us</a>
         </div>
     </div>
-</section>
+</div>
