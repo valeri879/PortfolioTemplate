@@ -1,8 +1,5 @@
         <div class="clearfix"></div>
         <footer>
-
-
-
             <div class="container input-container" data-aos-duration="1500" data-aos="zoom-in-down">
                 <form action="">
                     <div class="row">
@@ -88,5 +85,3 @@
 
 
         </footer>
-    </body>
-</html> 

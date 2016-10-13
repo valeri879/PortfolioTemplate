@@ -49,7 +49,6 @@
                     consectetur
                     est ex laudantium libero, nesciunt.
                 </p>
-
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut <b>dignissimos</b> dolor,
                     doloremque
