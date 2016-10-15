@@ -1,7 +1,7 @@
         <div class="clearfix"></div>
         <footer>
             <div class="container input-container" data-aos-duration="1500" data-aos="zoom-in-down">
-                <form action="">
+                <form action="#">
                     <div class="row">
                         <input class="input-text" id="name" type="text" placeholder="your name">
                     </div>
